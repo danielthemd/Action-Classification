@@ -16,14 +16,6 @@ How to Use:
 2. In the notebook: load the dataset using pandas, explore data with the .columns and .describe() functions, and prepare features and labels for model training.
 3. Key operations include displaying columns and example records, and previewing statistics like mean, standard deviation, minimum, maximum, and quartiles for core features.
 
-Sample Data Overview:
-Activity   RSSI (dBm)   Delay Spread (s)   Angular Spread (degrees)   Azimuth Angle   Elevation Angle   X Position   Y Position   Z Position
-jumping    -90          1.88e-08           312.05                     154.54          113.44            24.54        35.62        13.08
-sitting    -60          1.16e-09           294.49                     268.89          4.13              2.41         3.96         4.25
-standing   -80          2.91e-09           325.91                     87.16           74.41             43.76        10.07        47.37
-running    -80          1.49e-08           207.09                     144.18          112.66            41.86        43.14        28.54
-sleeping   -75          7.01e-09           231.55                     6.44            114.74            21.48        9.52         25.75
-
 Data Statistics:
 Rows: 5,000. Columns: 35.
 Key stats include RSSI mean at -80.26 and standard deviation 12.92, with a minimum of -100 and maximum of -60. Angular spread mean is 180.32 degrees and maximum is 359.99 degrees. Azimuth, elevation, X, Y, Z positions range roughly from 0 to 180 and 0 to 50 units.
